@@ -4,11 +4,11 @@
     "packages": [
         "path:.",
         "python@latest",
-        "poetry@latest"
+        "uv@latest"
     ],
     "shell": {
         "init_hook": [
-            "eval $(poetry env activate)"
+            ". $VENV_DIR/bin/activate"
         ],
         "scripts": {}
     }
