@@ -5,6 +5,8 @@ description = "Add your description here"
 requires-python = ">=3.13"
 dependencies = [
     "flask>=3.1.0",
+    "gunicorn>=23.0.0",
     "pocketsphinx>=5.0.4",
+    "pydub>=0.25.1",
     "speechrecognition>=3.14.0",
 ]
